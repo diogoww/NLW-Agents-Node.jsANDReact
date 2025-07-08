@@ -1,0 +1,31 @@
+{
+  "name": "nlw-agents---node.js-e-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogoww/NLW-Agents-Node.jsANDReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogoww/NLW-Agents-Node.jsANDReact/issues"
+  },
+  "homepage": "https://github.com/diogoww/NLW-Agents-Node.jsANDReact#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.11",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "fastify": "^5.4.0",
+    "fastify-type-provider-zod": "^5.0.2",
+    "zod": "^3.25.76"
+  }
+}
