@@ -23,11 +23,15 @@ export function CreateRoom() {
             <div>Create Room</div>
 
             {isLoading && <p>Carregando...</p>}
-            {data && JSON.stringify(data, null, 2)}
-
-            <Link className="underline" to="/room">
-                Acessar sala
-            </Link>
+            <div className='flex flex-col gap-1'>
+                {data?.map((room) => {
+                    return (
+                        <Link key={room.id} to={`/room/${room.id}`}>
+                            {room.name}
+                        </Link>
+                    )
+                })}
+            </div>
         </div>
     )
 }
