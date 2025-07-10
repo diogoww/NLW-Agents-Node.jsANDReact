@@ -8,6 +8,13 @@
       "when": 1752067379729,
       "tag": "0000_hard_boomer",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752154422394,
+      "tag": "0001_wide_ozymandias",
+      "breakpoints": true
     }
   ]
 }
