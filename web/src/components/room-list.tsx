@@ -1,10 +1,9 @@
-import { useQuery } from "@tanstack/react-query"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
 import { Link } from "react-router-dom"
 import { Badge } from "./ui/badge"
-import dayjs from "dayjs"
 import { ArrowRight } from "lucide-react"
 import { useRooms } from "@/http/use-rooms"
+import { dayjs } from "@/lib/dayjs"
 
 export function RoomList() {
 
@@ -27,7 +26,7 @@ export function RoomList() {
 
                     {data?.map((room) => {
                         return( 
-                            <Link className='flex items-center justify-between p-3 hover:bg-accent' key={room.id} to={`/rooms/${room.id}`}>
+                            <Link className='flex items-center justify-between p-3 hover:bg-accent' key={room.id} to={`/room/${room.id}`}>
                                 <div className='flex flex-1 flex-col gap-1'>
                                     <h3 className='font-medium'>{room.name}</h3>
                                     <div className='flex items-center gap-2'>
