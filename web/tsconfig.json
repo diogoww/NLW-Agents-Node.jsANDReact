@@ -9,10 +9,12 @@
     }
   ],
   "compilerOptions": {
-      "strictNullChecks": true,
-      "baseUrl": ".",
-      "paths": {
-        "@/*": ["./src/*"]
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
     }
   }
 }
