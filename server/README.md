@@ -48,12 +48,15 @@ npm install
 
 ### 3. Configurar variáveis de ambiente
 
-Crie um arquivo `.env` na raiz do projeto com as variáveis necessárias, por exemplo:
+Crie um arquivo `.env` na raiz do projeto com as variáveis necessárias:
 
 ```
 DATABASE_URL=postgres://docker:docker@localhost:5432/agents
 PORT=3333
+OPENAI_API_KEY=your_openai_api_key_here
 ```
+
+**Nota:** Para usar a funcionalidade de IA, você precisa de uma chave da OpenAI. Obtenha em: https://platform.openai.com/api-keys
 
 ### 4. Subir o banco de dados com Docker
 
